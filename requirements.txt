@@ -1,2 +1,0 @@
-pandas        # For handling and processing data related to metro stations and routes
-streamlit
