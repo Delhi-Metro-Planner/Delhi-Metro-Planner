@@ -7,8 +7,6 @@ Interactive User Interface: Enter source and destination stations using dropdown
 
 Shortest Path Calculation: The app computes and displays the shortest path between selected stations.
 
-Progress Feedback: A progress bar indicates the computation status.
-
 Detailed Results: Results are presented in a tabular format for easy readability.
 
 Comprehensive Station Map: Includes the complete Delhi Metro station connectivity map.
