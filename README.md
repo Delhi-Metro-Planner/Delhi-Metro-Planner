@@ -33,18 +33,10 @@ Streamlit: For building the interactive web interface.
 Pandas: For presenting the shortest path in a tabular format.
 
 # Setup Instructions
-- Clone the repository.
+- Pull the docker image.
 
-    ```git clone https://github.com/your-username/delhi-metro-travel-planner.git```
+    ```docker pull kingaiva/metro-planner:latest```
 
-- Navigate to the project directory.
+- Run the image and map the port 8501.
 
-    ```cd delhi-metro-travel-planner```
-
-- Install dependencies.
-
-    ```pip install -r requirements.txt```
-
-- Run the application.
-
-    ```streamlit run app.py```
+    ```docker run -p 8501:8501 metro-planner:latest```
